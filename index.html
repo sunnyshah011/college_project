@@ -11,6 +11,9 @@
 />
   </head>                                           
   <style>
+    *{
+        overflow-x: hidden;
+    }
     .Purchase1
     {
         padding: 12px 32px;
@@ -28,38 +31,40 @@
         color: white;
         background-color: #F6AA1E;
     }
+    
+    @media (width <=400px) {
+  
+  table:nth-child(1) td:nth-child(4),td:nth-child(5),td:nth-child(6),td:nth-child(7),td:nth-child(8),td:nth-child(9),td:nth-child(10){
+         display: none;
+  }
 
-@media (width>400px) {
-    table:nth-child(1) td:nth-child(11){
-            display: none;
-        }
-}
+  table:nth-child(1) td:nth-child(11){
+   /* display: none; */
+   /* margin-left: 200px; */
+   /* &nbsp; */
+   position: relative;
+   left: 50px;
+  }
 
-    @media  (width <= 400px) {
-      
-        table:nth-child(1) td:nth-child(4){
-            display: none;
-        }
-        table:nth-child(1) td:nth-child(5){
-            display: none;
-        }
-        table:nth-child(1) td:nth-child(6){
-            display: none;
-        }
-        table:nth-child(1) td:nth-child(7){
-            display: none;
-        }
-        table:nth-child(1) td:nth-child(8){
-            display: none;
-        }
-        table:nth-child(1) td:nth-child(10){
-            display: none;
-
-        }
-        body{
-            overflow-x: hidden;
-        }
-     }
+  table:nth-child(2)
+  {
+   width: 100%;
+   /* align-items: center; */
+   
+  }
+  table:nth-child(3)
+  {
+   width: 100%;
+   /* align-items: center; */
+   
+  }
+  table:nth-child(4)
+  {
+   width: 100%;
+   /* align-items: center; */
+   
+  }
+ }
   </style>
   
   <body bgcolor="#F5FCFA" style="letter-spacing: 1px;">
